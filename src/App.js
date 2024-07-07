@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ButtionList from "./component/buttion_list_animation";
+import Header from "./component/header_animation";
+import "./App.css";
+import BackgroundToggle from "./component/buttion_bg";
 function App() {
   return (
-    <div className="App">
-        <h1>tran van thien</h1>
+    <div>
+      <Header />
+      <ButtionList/>
+      <BackgroundToggle/>
+      <div className="h-[5000px]"></div>
     </div>
   );
 }
